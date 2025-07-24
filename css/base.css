@@ -1,0 +1,87 @@
+html {
+	scroll-behavior: smooth;
+	width: 100%;
+	height: auto;
+	min-height: 100%;
+	font-size: 16px;
+}
+
+body {
+	font-family: "Stolzl", sans-serif;
+	color: var(--color-text);
+	background: var(--color-bg);
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 100dvh;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/hero/ellipse500.webp),
+		url(../images/hero/pattern.webp), url(../images/hero/ellipse300.webp),
+		url(../images/hero/ellipse301.webp);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	background-size: contain, contain, 352px 452px, 342px 442px;
+	background-position: top center, bottom center, center left -50px,
+		top 80% right -100px;
+}
+
+/* @media screen and (min-width: 1024px) {
+	body {
+		background-image: url(../images/hero/ellipse500.webp),
+			url(../images/hero/pattern.webp), url(../images/hero/ellipse300.webp),
+			url(../images/hero/ellipse301.webp);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-size: contain, cover, 352px 452px, 342px 442px;
+		background-position: top right, center, center left, top 80% right -100px;
+		align-items: flex-start;
+		justify-content: center;
+	}
+} */
+
+/* @media screen and (min-width: 1512px) {
+	body {
+		background-image: url(../images/hero/ellipse500.webp),
+			url(../images/hero/pattern.webp), url(../images/hero/ellipse300.webp),
+			url(../images/hero/ellipse301.webp);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-size: 70.52vw 660px, cover, 352px 452px, 342px 442px;
+		background-position: top right, center, center left, top 80% right;
+	}
+} */
+
+/* @media screen and (min-width: 1850px) {
+	body {
+		background-image: url(../images/hero/ellipse500.webp),
+			url(../images/hero/pattern.webp), url(../images/hero/ellipse300.webp),
+			url(../images/hero/ellipse301.webp);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-size: 70.52vw 660px, cover, 352px 452px, 342px 442px;
+		background-position: top right, center, center left, top 80% right;
+	}
+} */
+
+.container {
+	position: relative;
+	width: 100%;
+	min-height: 100dvh;
+	/* max-width: 1512px; */
+	
+/* 	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center; */
+	overflow: hidden;
+	z-index: 10;
+	margin: 0 auto;
+}
+/* 
+@media screen and (min-width: 1024px) {
+	.container {
+		max-width: 1520px;
+display: block;
+	}
+}
+ */

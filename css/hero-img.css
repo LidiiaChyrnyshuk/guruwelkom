@@ -1,0 +1,49 @@
+.hero-img {
+	width: 87.69vw;
+	position: relative;
+}
+@media (min-width: 1024px) {
+	.hero-img {
+	width: 78.94vw;
+	position: relative;
+}
+}
+
+.chip-wrap {
+	width: 32.82vw;
+	height: 32.82vw;
+	position: absolute;
+	top: -5%;
+	right: 0;
+	z-index: 20;
+}
+
+@media (min-width: 1024px) {
+	#chip {
+		width: 16.44vw;
+		height: 16.44vw;
+		left: 20%;
+		top: 5%;
+	}
+}
+
+.img-wrap {
+	position: relative;
+	width: 87.69vw;
+	height: 86.66vw;
+	overflow: hidden;
+	background-image: url(../images/hero/hero_595.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+}
+@media (min-width: 1024px) {
+	.img-wrap {
+		width: 78.94vw;
+		height: 38.88vw;
+			background-image: url(../images/hero/hero_1200.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+	}
+}

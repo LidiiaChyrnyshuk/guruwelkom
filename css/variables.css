@@ -1,0 +1,12 @@
+:root {
+	--color-bg: rgba(12, 20, 40, 1);
+	--color-text: rgba(255, 255, 255, 1);
+	--color-bg-btn: radial-gradient(
+		60.63% 121.25% at 50% 0%,
+		#25ccb6 18%,
+		#01685a 100%
+	);
+	--color-accent-text: rgba(60, 255, 166, 1);
+	--color-second-accent-text: rgba(132, 255, 247, 1);
+  --second-color-text :rgba(12, 20, 40, 1);
+}

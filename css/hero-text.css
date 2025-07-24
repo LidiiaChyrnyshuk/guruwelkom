@@ -1,0 +1,145 @@
+.bonus {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.title-wrap {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/hero/rectangle_mob.webp);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top 20% center;
+}
+
+.title {
+	font-family: inherit;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 32px;
+	line-height: 42px;
+	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--color-text);
+	background-color: rgba(12, 20, 40, 1);
+	border-radius: 18px;
+	width: 214px;
+	padding-top: 5px;
+	padding-right: 18px;
+	padding-bottom: 5px;
+	padding-left: 18px;
+	margin-bottom: 14px;
+}
+
+.titleBonus {
+	font-family: inherit;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 48px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--second-color-text);
+	margin-bottom: 14px;
+}
+
+.promoSubtext {
+	font-family: inherit;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--second-color-text);
+	margin-bottom: 32px;
+}
+
+.promoCurrency {
+	font-family: inherit;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 48px;
+	line-height: 42px;
+	letter-spacing: -1px;
+	text-align: center;
+	text-transform: uppercase;
+	color: var(--color-accent-text);
+	margin-bottom: 18px;
+}
+
+.bonus-wrap {
+	position: relative;
+	width: 305px;
+	height: 62px;
+	/* 	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px; */
+	border-radius: 20px;
+	border: 3px solid rgba(222, 255, 253, 1);
+	background: #2cfff114;
+	box-shadow: 0px 0px 24px 0px #defffd40;
+	backdrop-filter: blur(16px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+
+.bonus-text {
+	font-family: inherit;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 32px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: var(--color-second-accent-text);
+}
+
+@media screen and (min-width: 1024px) {
+  .title-wrap {
+    width: 542px;
+	background-image: url(../images/hero/rectangle_desk.webp);
+	background-repeat: no-repeat;
+	background-size: 380px 192px;
+	background-position: top 20% center;
+  }
+	.title {
+		padding-top: 13px;
+		padding-right: 20px;
+		padding-bottom: 13px;
+		padding-left: 20px;
+		font-size: 40px;
+		width: 260px;
+		margin-bottom: 20px;
+	}
+	.titleBonus {
+		font-size: 90px;
+		margin-bottom: 20px;
+	}
+	.promoSubtext {
+		font-size: 40px;
+		margin-bottom: 44px;
+	}
+	.promoCurrency {
+		font-size: 90px;
+	}
+	.bonus-wrap {
+		width: 338px;
+		height: 73px;
+		border-radius: 24px;
+		border: 4px solid rgba(222, 255, 253, 1);
+		margin-bottom: 44px;
+	}
+	.bonus-text {
+		font-size: 34px;
+	}
+}

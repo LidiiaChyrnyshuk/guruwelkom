@@ -11,7 +11,7 @@
 
 	const ctx = canvas.getContext("2d");
 	const img = new Image();
-	img.src = "../images/hero/guru_chips.webp";
+	img.src = "images/hero/guru_chips.webp";
 
 	let scale = 1;
 

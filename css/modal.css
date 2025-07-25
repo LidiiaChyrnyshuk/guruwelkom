@@ -100,23 +100,6 @@
 	}
 }
 
-.accent5 {
-	position: absolute;
-	top: -10px;
-	right: -50px;
-	width: 100%;
-	height: auto;
-	z-index: 1;
-}
-
-@media screen and (min-width: 1024px) {
-	.accent5 {
-		top: -30px;
-		right: -50px;
-		width: 100%;
-		height: auto;
-	}
-}
 
 .header-modal {
 	position: relative;

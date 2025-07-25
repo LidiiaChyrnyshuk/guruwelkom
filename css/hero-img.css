@@ -4,9 +4,11 @@
 }
 @media (min-width: 1024px) {
 	.hero-img {
-	width: 78.94vw;
-	position: relative;
-}
+		width: 78.94vw;
+		max-width: 1200px;
+
+		position: relative;
+	}
 }
 
 .chip-wrap {
@@ -22,6 +24,8 @@
 	#chip {
 		width: 16.44vw;
 		height: 16.44vw;
+		max-width: 250px;
+		max-height: 250px;
 		left: 20%;
 		top: 5%;
 	}
@@ -41,9 +45,20 @@
 	.img-wrap {
 		width: 78.94vw;
 		height: 38.88vw;
-			background-image: url(../images/hero/hero_1200.webp);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: top center;
+		background-image: url(../images/hero/hero_1200.webp);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top center;
+	}
+}
+@media (min-width: 1520px) {
+	.img-wrap {
+		width: 1200px;
+		height: 38.88vw;
+				max-height: 620px;
+		background-image: url(../images/hero/hero_1200.webp);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: top center;
 	}
 }

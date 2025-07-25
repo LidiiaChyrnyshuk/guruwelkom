@@ -5,21 +5,12 @@
 			titleBonus: "BONUS",
 			promoSubtext: "up to",
 			promoCurrency: "3000 USDT",
-			modalPromoCurrency: "3000 USDT",
 			bonus: "+ 100 Free spins",
-			modalBonus: "+ 100 Free spins",
-			deposit: "without deposit",
 			btnRegistration: "JOIN NOW",
-			titleBenefits: "Best for Casino Guru players",
-			benefitsTop: "TOP 10",
-			benefitsBest: "SAFETY INDEX",
-			benefitsYear: "HIGH",
-			casinoRank: "Exclusive bonuses",
-			great: "Great",
-			playerRating: "Sharing 3% from income casino profit",
-			reviews: "817 reviews",
-			gamesTitel: "Over 8000+ games",
-			btnPlay: "Play",
+			modalPercent: "Welcome bonus",
+			modalPromoSubtext: "up to",
+			modalPromoCurrency: "3000 USDT",
+			modalBonus: "+ 100 Free spins",
 			checkbox:
 				"By ticking this box to register for this website, the user declares to be over 18 years old and to have read, understood and accepted",
 			terms: "the Terms and Conditions",
@@ -234,9 +225,23 @@
 	});
 
 	// Завантаження мови при відкритті сторінки
-	window.addEventListener("DOMContentLoaded", () => {
-		const savedLang = localStorage.getItem("selectedLang") || "EN";
-		applyLanguage(savedLang);
-	});
+const supportedLanguages = Object.keys(translations);
+
+function getBrowserLanguage() {
+	const userLang = navigator.language || navigator.userLanguage;
+	const language = userLang.split("-")[0].toUpperCase(); // <== Змінено на upperCase
+	if (supportedLanguages.includes(language)) {
+		return language;
+	}
+	return fallbackLang; // EN
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+	const savedLang = localStorage.getItem("selectedLang");
+	const langToApply = savedLang || getBrowserLanguage();
+	applyLanguage(langToApply);
+});
+
+
 
 	

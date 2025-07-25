@@ -4,7 +4,7 @@
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(12, 20, 40, 0.8);
 	backdrop-filter: blur(10px);
 	visibility: visible;
 	overflow: hidden;
@@ -96,7 +96,7 @@
 		background-image:	url(../images/form/modal-img.webp);
 			background-repeat: no-repeat;
 	background-size:  contain;
-		background-position: 100px 0;
+		background-position: 110px 0;
 	}
 }
 
@@ -159,32 +159,34 @@
 
 .modal-promoCurrency {
 	font-weight: 700;
-	font-size: 24px;
-	line-height: 24px;
+	font-size: 20px;
+	line-height: 20px;
 	text-transform: uppercase;
 }
 
 @media screen and (min-width: 1024px) {
 	.modal-promoCurrency {
-		font-size: 32px;
-		line-height: 32px;
+		font-size: 24px;
+		line-height: 24px;
 	}
 }
 
 .modal-promoSubtext {
 	font-weight: 200;
-	font-size: 24px;
-	line-height: 24px;
+	font-size: 20px;
+	line-height: 20px;
 	text-transform: uppercase;
 }
 
 @media screen and (min-width: 1024px) {
 	.modal-promoSubtext {
-		font-size: 32px;
-		line-height: 32px;
+		font-size: 24px;
+		line-height: 24px;
 	}
 }
-
+.modal-accent {
+	color: var(--color-accent-text);
+}
 .modal-bonus-wrap {
 	position: relative;
 	z-index: 5;

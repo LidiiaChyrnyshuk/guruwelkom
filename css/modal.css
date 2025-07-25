@@ -214,13 +214,13 @@
 .lang-HU [data-translate="modalPercent"],
 .lang-HU [data-translate="modalPromoSubtext"],
 .lang-HU [data-translate="modalPromoCurrency"] {
-	font-size: 22px;
+	font-size: 18px;
 }
 @media screen and (min-width: 1024px) {
 	.lang-HU [data-translate="modalPercent"],
 	.lang-HU [data-translate="modalPromoSubtext"],
 	.lang-HU [data-translate="modalPromoCurrency"] {
-		font-size: 28px;
+		font-size: 20px;
 	}
 }
 

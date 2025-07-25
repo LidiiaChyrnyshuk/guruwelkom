@@ -79,9 +79,9 @@
 	position: relative;
 	width: 305px;
 	height: 62px;
-	/* 	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
+	/* 		padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
 	padding-left: 10px; */
 	border-radius: 20px;
 	border: 3px solid rgba(222, 255, 253, 1);
@@ -105,13 +105,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .title-wrap {
-    width: 542px;
-	background-image: url(../images/hero/rectangle_desk.webp);
-	background-repeat: no-repeat;
-	background-size: 380px 192px;
-	background-position: top 20% center;
-  }
+	.title-wrap {
+		width: 542px;
+		background-image: url(../images/hero/rectangle_desk.webp);
+		background-repeat: no-repeat;
+		background-size: 380px 192px;
+		background-position: top 20% center;
+	}
 	.title {
 		padding-top: 13px;
 		padding-right: 20px;
@@ -141,5 +141,37 @@
 	}
 	.bonus-text {
 		font-size: 34px;
+	}
+}
+
+.lang-PT [data-translate="title"] {
+	font-size: 20px;
+}
+
+.lang-HU [data-translate="bonus"],
+.lang-PT [data-translate="bonus"],
+.lang-CZ [data-translate="bonus"] {
+	font-size: 20px;
+}
+
+.lang-RU [data-translate="bonus"] {
+	font-size: 26px;
+}
+
+@media screen and (min-width: 1024px) {
+	.lang-PT [data-translate="title"] {
+		font-size: 26px;
+	}
+	.lang-HU [data-translate="promoCurrency"],
+	.lang-RU [data-translate="promoCurrency"] {
+		font-size: 70px;
+	}
+	.lang-HU [data-translate="bonus"],
+	.lang-PT [data-translate="bonus"],
+	.lang-CZ [data-translate="bonus"] {
+		font-size: 23px;
+	}
+	.lang-RU [data-translate="bonus"] {
+		font-size: 26px;
 	}
 }

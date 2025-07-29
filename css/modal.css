@@ -213,7 +213,13 @@
 
 .lang-HU [data-translate="modalPercent"],
 .lang-HU [data-translate="modalPromoSubtext"],
-.lang-HU [data-translate="modalPromoCurrency"] {
+.lang-HU [data-translate="modalPromoCurrency"],
+.lang-PT [data-translate="modalPercent"],
+.lang-PT [data-translate="modalPromoSubtext"],
+.lang-PT [data-translate="modalPromoCurrency"],
+.lang-TR [data-translate="modalPercent"],
+.lang-TR [data-translate="modalPromoSubtext"],
+.lang-TR [data-translate="modalPromoCurrency"] {
 	font-size: 18px;
 }
 .lang-HU [data-translate="modalBonus"],
@@ -226,9 +232,12 @@
 	font-size: 12px;
 }
 @media screen and (min-width: 1024px) {
-	.lang-HU [data-translate="modalPercent"],
-	.lang-HU [data-translate="modalPromoSubtext"],
-	.lang-HU [data-translate="modalPromoCurrency"] {
+.lang-HU [data-translate="modalPercent"],
+.lang-HU [data-translate="modalPromoSubtext"],
+.lang-HU [data-translate="modalPromoCurrency"],
+.lang-TR [data-translate="modalPercent"],
+.lang-TR [data-translate="modalPromoSubtext"],
+.lang-TR [data-translate="modalPromoCurrency"] {
 		font-size: 20px;
 	}
 }

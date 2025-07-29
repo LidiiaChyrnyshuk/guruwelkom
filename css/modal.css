@@ -216,6 +216,15 @@
 .lang-HU [data-translate="modalPromoCurrency"] {
 	font-size: 18px;
 }
+.lang-HU [data-translate="modalBonus"],
+.lang-PT [data-translate="modalBonus"],
+.lang-CZ [data-translate="modalBonus"],
+.lang-TR [data-translate="modalBonus"] {
+	font-size: 9px;
+}
+.lang-RU [data-translate="modalBonus"] {
+	font-size: 12px;
+}
 @media screen and (min-width: 1024px) {
 	.lang-HU [data-translate="modalPercent"],
 	.lang-HU [data-translate="modalPromoSubtext"],
@@ -223,23 +232,14 @@
 		font-size: 20px;
 	}
 }
-
-.lang-HU [data-translate="modalBonus"],
-.lang-PT [data-translate="modalBonus"],
-.lang-CZ [data-translate="modalBonus"] {
-	font-size: 9px;
-}
 @media screen and (min-width: 1024px) {
 	.lang-HU [data-translate="modalBonus"],
 	.lang-PT [data-translate="modalBonus"],
-	.lang-CZ [data-translate="modalBonus"] {
-		font-size: 10px;
+	.lang-CZ [data-translate="modalBonus"],
+	.lang-TR [data-translate="modalBonus"] {
+		font-size: 11px;
 	}
 }
-.lang-RU [data-translate="modalBonus"] {
-	font-size: 12px;
-}
-
 @media screen and (min-width: 1024px) {
 	.lang-RU [data-translate="modalBonus"] {
 		font-size: 14px;

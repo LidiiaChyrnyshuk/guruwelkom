@@ -144,13 +144,15 @@
 	}
 }
 
-.lang-PT [data-translate="title"] {
+.lang-PT [data-translate="title"],
+.lang-TR [data-translate="title"] {
 	font-size: 20px;
 }
 
 .lang-HU [data-translate="bonus"],
 .lang-PT [data-translate="bonus"],
-.lang-CZ [data-translate="bonus"] {
+.lang-CZ [data-translate="bonus"],
+.lang-TR [data-translate="bonus"] {
 	font-size: 20px;
 }
 
@@ -159,16 +161,22 @@
 }
 
 @media screen and (min-width: 1024px) {
-	.lang-PT [data-translate="title"] {
+	.lang-PT [data-translate="title"],
+	.lang-TR [data-translate="title"] {
 		font-size: 26px;
 	}
+	.lang-TR [data-translate="titleBonus"] {
+font-size: 80px;
+	}
 	.lang-HU [data-translate="promoCurrency"],
-	.lang-RU [data-translate="promoCurrency"] {
+	.lang-RU [data-translate="promoCurrency"],
+	.lang-TR [data-translate="promoCurrency"] {
 		font-size: 70px;
 	}
 	.lang-HU [data-translate="bonus"],
 	.lang-PT [data-translate="bonus"],
-	.lang-CZ [data-translate="bonus"] {
+	.lang-CZ [data-translate="bonus"],
+	.lang-TR [data-translate="bonus"] {
 		font-size: 23px;
 	}
 	.lang-RU [data-translate="bonus"] {

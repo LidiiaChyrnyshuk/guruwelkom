@@ -121,6 +121,26 @@
 			numberCharacter: "Include at least 1 number",
 			emailError: "Incorrect email format",
 		},
+		TR: {
+			title: "Hoş geldin",
+			titleBonus: "BONUSU",
+			promoSubtext: "kadar",
+			promoCurrency: "300 000 TRY",
+			bonus: "+ 100 Ücretsiz Spin",
+			btnRegistration: "ŞİMDİ KATILIN",
+			modalPercent: "Hoş geldin bonusu",
+			modalPromoSubtext: "kadar",
+			modalPromoCurrency: "300 000 TRY",
+			modalBonus: "+ 100 Ücretsiz Spin",
+			checkbox:
+				"Bu kutuyu işaretleyerek, kullanıcı 18 yaşından büyük olduğunu ve şartları okuyup anladığını kabul eder",
+			terms: "the Terms and Conditions",
+			modalBtn: "Hesap oluştur",
+			quantityCharacter: "En az 6 karakter içermelidir",
+			uppercaseCharacter: "En az 1 büyük harf ekleyin",
+			numberCharacter: "En az 1 rakam ekleyin",
+			emailError: "Yanlış e-posta biçimi",
+		},
 	};
 
   const btn = document.getElementById("lang-btn");

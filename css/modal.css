@@ -222,14 +222,18 @@
 .lang-TR [data-translate="modalPromoCurrency"] {
 	font-size: 18px;
 }
+.lang-RU [data-translate="modalPercent"],
+.lang-RU [data-translate="modalPromoSubtext"],
+.lang-RU [data-translate="modalPromoCurrency"] {
+	font-size: 16px;
+}
 .lang-HU [data-translate="modalBonus"],
 .lang-PT [data-translate="modalBonus"],
-.lang-CZ [data-translate="modalBonus"],
 .lang-TR [data-translate="modalBonus"] {
 	font-size: 9px;
 }
 .lang-RU [data-translate="modalBonus"] {
-	font-size: 12px;
+	font-size: 7.5px;
 }
 @media screen and (min-width: 1024px) {
 .lang-HU [data-translate="modalPercent"],
@@ -244,14 +248,13 @@
 @media screen and (min-width: 1024px) {
 	.lang-HU [data-translate="modalBonus"],
 	.lang-PT [data-translate="modalBonus"],
-	.lang-CZ [data-translate="modalBonus"],
 	.lang-TR [data-translate="modalBonus"] {
-		font-size: 11px;
+		font-size: 10px;
 	}
 }
 @media screen and (min-width: 1024px) {
 	.lang-RU [data-translate="modalBonus"] {
-		font-size: 14px;
+		font-size: 9px;
 	}
 }
 
@@ -454,7 +457,7 @@ padding: 8px;
 
 .modal-checkbox:checked::before {
 	content: "";
-	background-image: url(../images/form/check.svg);
+	background-image: url(../images/form/status-check.svg);
 	background-size: cover;
 	width: 22px;
 	height: 22px;

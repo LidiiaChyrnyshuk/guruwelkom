@@ -131,6 +131,7 @@
 	}
 	.promoCurrency {
 		font-size: 90px;
+		margin-bottom: 24px;
 	}
 	.bonus-wrap {
 		width: 338px;
@@ -147,29 +148,27 @@
 .lang-RU [data-translate="title"] {
 	font-size: 16px;
 }
-
 .lang-PT [data-translate="title"],
 .lang-TR [data-translate="title"] {
 	font-size: 21px;
 }
-
 .lang-TR [data-translate="titleBonus"],
 .lang-HU [data-translate="titleBonus"],
 .lang-PT [data-translate="titleBonus"] {
 	font-size: 46px;
 }
-
 .lang-HU [data-translate="bonus"],
-.lang-PT [data-translate="bonus"],
 .lang-TR [data-translate="bonus"] {
 	font-size: 20px;
 }
-
+.lang-PT [data-translate="bonus"] {
+	font-size:24px ;
+}
 .lang-RU [data-translate="bonus"] {
-	font-size: 17px;
+	font-size: 28px;
 }
 .lang-RU [data-translate="btnRegistration"] {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -186,17 +185,19 @@
 		font-size: 70px;
 	}
 	.lang-HU [data-translate="promoCurrency"],
-	.lang-RU [data-translate="promoCurrency"],
-	.lang-TR [data-translate="promoCurrency"] {
-		font-size: 70px;
+	.lang-TR [data-translate="promoCurrency"],
+	.lang-CA [data-translate="promoCurrency"] {
+		font-size: 76px;
 	}
 	.lang-HU [data-translate="bonus"],
-	.lang-PT [data-translate="bonus"],
 	.lang-TR [data-translate="bonus"] {
 		font-size: 23px;
 	}
+	.lang-PT [data-translate="bonus"] {
+	font-size:26px ;
+}
 	.lang-RU [data-translate="bonus"] {
-		font-size: 18px;
+		font-size: 30px;
 	}
 	.lang-RU [data-translate="btnRegistration"] {
 		font-size: 30px;

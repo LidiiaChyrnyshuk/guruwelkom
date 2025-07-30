@@ -75,31 +75,27 @@
 	}
 }
 
-
 .modal-header::after {
 	content: "";
 	position: absolute;
 	inset: 0;
 	pointer-events: none;
 	z-index: 2;
-	background-image:url(../images/form/modal-img.webp);
+	background-image: url(../images/form/modal-img.webp);
 	background-repeat: no-repeat;
-	background-size:  contain;
-	background-position:65px 0;
+	background-size: contain;
+	background-position: 65px 0;
 	opacity: 1;
 }
 
-
-
 @media screen and (min-width: 1024px) {
 	.modal-header::after {
-		background-image:	url(../images/form/modal-img.webp);
-			background-repeat: no-repeat;
-	background-size:  contain;
+		background-image: url(../images/form/modal-img.webp);
+		background-repeat: no-repeat;
+		background-size: contain;
 		background-position: 110px 0;
 	}
 }
-
 
 .header-modal {
 	position: relative;
@@ -175,14 +171,14 @@
 	z-index: 5;
 	width: 153px;
 	height: 32px;
-	padding-top: 8px;
+	/* 	padding-top: 8px;
 	padding-right: 10px;
 	padding-bottom: 8px;
-	padding-left: 10px;
+	padding-left: 10px; */
 	border-radius: 12px;
-	border: 2px solid #DEFFFD;
-	background: #2CFFF114;
-	box-shadow: 0px 0px 24px 0px #DEFFFD40;
+	border: 2px solid #defffd;
+	background: #2cfff114;
+	box-shadow: 0px 0px 24px 0px #defffd40;
 	backdrop-filter: blur(16px);
 	display: flex;
 	align-items: center;
@@ -201,7 +197,7 @@
 	font-size: 14px;
 	line-height: 16px;
 	text-transform: uppercase;
-	color: #84FFF7;
+	color: #84fff7;
 }
 
 @media screen and (min-width: 1024px) {
@@ -228,33 +224,34 @@
 	font-size: 16px;
 }
 .lang-HU [data-translate="modalBonus"],
-.lang-PT [data-translate="modalBonus"],
 .lang-TR [data-translate="modalBonus"] {
-	font-size: 9px;
+	font-size: 10px;
+}
+.lang-PT [data-translate="modalBonus"] {
+	font-size: 11px;
 }
 .lang-RU [data-translate="modalBonus"] {
-	font-size: 7.5px;
+	font-size: 13px;
 }
+
 @media screen and (min-width: 1024px) {
-.lang-HU [data-translate="modalPercent"],
-.lang-HU [data-translate="modalPromoSubtext"],
-.lang-HU [data-translate="modalPromoCurrency"],
-.lang-TR [data-translate="modalPercent"],
-.lang-TR [data-translate="modalPromoSubtext"],
-.lang-TR [data-translate="modalPromoCurrency"] {
+	.lang-HU [data-translate="modalPercent"],
+	.lang-HU [data-translate="modalPromoSubtext"],
+	.lang-HU [data-translate="modalPromoCurrency"],
+	.lang-TR [data-translate="modalPercent"],
+	.lang-TR [data-translate="modalPromoSubtext"],
+	.lang-TR [data-translate="modalPromoCurrency"] {
 		font-size: 20px;
 	}
-}
-@media screen and (min-width: 1024px) {
 	.lang-HU [data-translate="modalBonus"],
-	.lang-PT [data-translate="modalBonus"],
 	.lang-TR [data-translate="modalBonus"] {
-		font-size: 10px;
+		font-size: 11px;
 	}
+	.lang-PT [data-translate="modalBonus"] {
+	font-size: 13px;
 }
-@media screen and (min-width: 1024px) {
 	.lang-RU [data-translate="modalBonus"] {
-		font-size: 9px;
+		font-size: 15px;
 	}
 }
 
@@ -274,7 +271,6 @@
 .password-wrap {
 	position: relative;
 	width: 100%;
-	
 }
 
 .modal-label {
@@ -309,27 +305,26 @@
 	cursor: pointer;
 }
 
-
 input::placeholder {
 	color: rgba(255, 255, 255, 0.6);
 }
 
 .email.error {
-  border: 1px solid rgba(255, 83, 100, 1) !important;
+	border: 1px solid rgba(255, 83, 100, 1) !important;
 }
 
 .error-text {
-position: absolute;
-right: 16px;
-bottom: -12px;
-display: none;
-font-weight: 400;
-font-size: 12px;
-line-height: 24px;
-color: rgba(255, 83, 100, 1);
-background-color: var(--color-bg);
-padding: 0 4px;
-z-index: 5;
+	position: absolute;
+	right: 16px;
+	bottom: -12px;
+	display: none;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	color: rgba(255, 83, 100, 1);
+	background-color: var(--color-bg);
+	padding: 0 4px;
+	z-index: 5;
 }
 
 .password {
@@ -346,7 +341,6 @@ z-index: 5;
 	z-index: 8;
 }
 
-
 .toggle-password {
 	position: absolute;
 	right: 12px;
@@ -360,7 +354,6 @@ z-index: 5;
 	align-items: center;
 	justify-content: center;
 }
-
 
 .toggle-icon {
 	width: 24px;
@@ -383,7 +376,7 @@ z-index: 5;
 	align-items: center;
 	justify-content: end;
 }
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
 	.password-hints {
 		width: 448px;
 	}
@@ -394,16 +387,16 @@ z-index: 5;
 }
 .hint-list {
 	border-radius: 12px;
-	background: #FFFFFF1F;
-width: 100%;
+	background: #ffffff1f;
+	width: 100%;
 }
 
 .hint-item {
-display: flex;
-gap: 10px;
-align-items: center;
-justify-content: flex-start;
-padding: 8px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 8px;
 }
 
 .icon-valid {
@@ -431,7 +424,7 @@ padding: 8px;
 	margin: 0;
 }
 
-@media screen and (min-width: 1512px) {
+@media screen and (min-width: 1024px) {
 	.modal-check {
 		height: 60px;
 	}
@@ -498,7 +491,6 @@ input:-webkit-autofill:active {
 }
 
 #captcha-container {
-  height: 0;
-  overflow: hidden;
+	height: 0;
+	overflow: hidden;
 }
-

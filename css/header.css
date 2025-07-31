@@ -6,11 +6,11 @@
 	justify-content: space-between;
 	z-index: 90;
 
-	margin-bottom: 24px;
+	margin-bottom: 20px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 	.header {
-		margin-bottom: 64px;
+		margin-bottom: 0;
 	}
 }
 
@@ -19,7 +19,7 @@
 	height: 32px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 	.header-logo {
 		width: 190px;
 		height: 40px;

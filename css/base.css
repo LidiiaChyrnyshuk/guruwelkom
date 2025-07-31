@@ -35,8 +35,8 @@ body {
 			url(../images/body/ellipse_right_desk.webp), url(../images/body/ellipse_centr_desk.webp);
 		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat,no-repeat;
 		background-size: contain, contain, 452px 352px,  352px 442px, contain;
-		background-position: top -5% center, bottom center, bottom 80px left -50px,
-		top 80% right,top 80% center;
+		background-position: top -5% center, bottom center, top 70% left -50px,
+		top 65% right,top 80% center;
 	}
 }
 

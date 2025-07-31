@@ -169,7 +169,7 @@
 .modal-bonus-wrap {
 	position: relative;
 	z-index: 5;
-	width: 153px;
+	width: 161px;
 	height: 32px;
 	/* 	padding-top: 8px;
 	padding-right: 10px;
@@ -187,7 +187,7 @@
 
 @media screen and (min-width: 1024px) {
 	.modal-bonus-wrap {
-		width: 169px;
+		width: 178px;
 		height: 34px;
 	}
 }

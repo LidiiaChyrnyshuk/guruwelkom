@@ -19,11 +19,11 @@ function selectImageByScreenWidth() {
 	let newSrc = "";
 
 	if (width >= 1512) {
-		newSrc = "../images/hero/hero_1834.webp";
+		newSrc = "images/hero/hero_1834.webp";
 	} else if (width >= 1024) {
-		newSrc = "../images/hero/hero_1200.webp";
+		newSrc = "images/hero/hero_1200.webp";
 	} else {
-		newSrc = "../images/hero/hero_595.webp";
+		newSrc = "images/hero/hero_595.webp";
 	}
 
 	if (newSrc !== currentSrc) {

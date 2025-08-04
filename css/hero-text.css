@@ -193,14 +193,14 @@
 	.lang-CA [data-translate="promoCurrency"] {
 		font-size: 76px;
 	}
-	.lang-HU [data-translate="bonus"] {
+	.lang-HU [data-translate="bonus"],
+	.lang-TR [data-translate="bonus"] {
 		font-size: 23px;
 	}
 	.lang-PT [data-translate="bonus"] {
 	font-size:26px ;
 }
-	.lang-RU [data-translate="bonus"],
-	 .lang-TR [data-translate="bonus"] {
+	.lang-RU [data-translate="bonus"] {
 		font-size: 30px;
 	}
 	.lang-RU [data-translate="btnRegistration"] {

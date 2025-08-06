@@ -11,6 +11,10 @@
 			modalPromoSubtext: "up to",
 			modalPromoCurrency: "3000 USDT",
 			modalBonus: "+ 100 Free spins",
+			labelEmail: "Email*",
+			placeholderEmail: "Email",
+			labelPassword: "Password*",
+			placeholderPassword: "Password",
 			checkbox:
 				"By ticking this box to register for this website, the user declares to be over 18 years old and to have read, understood and accepted",
 			terms: "the Terms and Conditions",
@@ -31,6 +35,10 @@
 			modalPromoSubtext: "akár",
 			modalPromoCurrency: "1 038 420 HUF",
 			modalBonus: "+ 100 ingyenes pörgetés",
+			labelEmail: "Email*",
+			placeholderEmail: "Email",
+			labelPassword: "Jelszó*",
+			placeholderPassword: "Jelszó",
 			checkbox:
 				"A jelölőnégyzet kipipálásával a felhasználó kijelenti, hogy elmúlt 18 éves, és elolvasta, megértette és elfogadta",
 			terms: "a Felhasználási feltételeket",
@@ -51,6 +59,10 @@
 			modalPromoSubtext: "até",
 			modalPromoCurrency: "2 580 EUR",
 			modalBonus: "+ 100 rodadas grátis",
+			labelEmail: "Email*",
+			placeholderEmail: "Email",
+			labelPassword: "Senha*",
+			placeholderPassword: "Senha",
 			checkbox:
 				"Ao marcar esta caixa para se registar neste site, o utilizador declara ser maior de 18 anos e ter lido, compreendido e aceite",
 			terms: "os Termos e Condições",
@@ -71,6 +83,10 @@
 			modalPromoSubtext: "до",
 			modalPromoCurrency: "270 000₽",
 			modalBonus: "+ 100 ФРИСПИНОВ",
+			labelEmail: "Email*",
+			placeholderEmail: "Email",
+			labelPassword: "Пароль*",
+			placeholderPassword: "Пароль",
 			checkbox:
 				"Ставя галочку в этом поле для регистрации на сайте, пользователь подтверждает, что ему больше 18 лет, и что он прочитал, понял и принял",
 			terms: "Условия и положения",
@@ -91,6 +107,10 @@
 			modalPromoSubtext: "až do",
 			modalPromoCurrency: "63 732 CZK",
 			modalBonus: "+ 100 freespinů",
+			labelEmail: "Email*",
+			placeholderEmail: "Email",
+			labelPassword: "Heslo*",
+			placeholderPassword: "Heslo",
 			checkbox:
 				"Zaškrtnutím tohoto políčka pro registraci na webu uživatel potvrzuje, že je mu více než 18 let, a že si přečetl, pochopil a přijal",
 			terms: "Podmínky použití",
@@ -111,6 +131,10 @@
 			modalPromoSubtext: "up to",
 			modalPromoCurrency: "CA $4 000",
 			modalBonus: "+ 100 Free spins",
+			labelEmail: "Email*",
+			placeholderEmail: "Email",
+			labelPassword: "Password*",
+			placeholderPassword: "Password",
 			checkbox:
 				"By ticking this box to register for this website, the user declares to be over 18 years old and to have read, understood and accepted",
 			terms: "the Terms and Conditions",
@@ -131,6 +155,10 @@
 			modalPromoSubtext: "kadar",
 			modalPromoCurrency: "84 900₺'ye",
 			modalBonus: "+ 100 Ücretsiz Döndürme",
+			labelEmail: "E-posta*",
+			placeholderEmail: "E-posta",
+			labelPassword: "Şifre*",
+			placeholderPassword: "Şifre",
 			checkbox:
 				"Bu kutuyu işaretleyerek, kullanıcı 18 yaşından büyük olduğunu ve şartları okuyup anladığını kabul eder",
 			terms: "the Terms and Conditions",
@@ -152,7 +180,7 @@
 		if (!translations[lang]) return;
 
 		document.body.className = `lang-${lang}`;
-
+		// Переклад текстового контенту
 		document.querySelectorAll("[data-translate]").forEach((el) => {
 			const key = el.dataset.translate;
 			const fallbackLang = "EN";
@@ -161,6 +189,16 @@
 
 			if (translation !== undefined) {
 				el.textContent = translation;
+			}
+		});
+
+		// Переклад плейсхолдерів
+		document.querySelectorAll("[data-translate-placeholder]").forEach((el) => {
+			const key = el.dataset.translatePlaceholder;
+			const translation =
+				translations[lang][key] ?? translations[fallbackLang][key];
+			if (translation !== undefined) {
+				el.placeholder = translation;
 			}
 		});
 
